@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Dark theme settings */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87); /* Ensures readable text */
+  margin: 0;
+  padding: 0;
+}
+
+#carousel {
+  max-height: 500px;
+  overflow: hidden;
+  background: transparent; /* Optional */
+}
